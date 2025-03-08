@@ -2,14 +2,14 @@ public class DecoyDuck extends Duck {
 
 
     public DecoyDuck() {
-        quackBehaviour = new Squeak();
-        swimBehaviour = new Floating();
+        quackBehaviour = new Mute();
+        swimBehaviour = new Drowning();
         flightBehaviour = new Fall();
 
 
     }
     @Override
     public void display() {
-        System.out.println("I am Decpy Duck !!");
+        System.out.println("I am Decoy Duck !!");
     }
 }
