@@ -5,23 +5,26 @@ public class Main {
         MallardDuck md = new MallardDuck();
         System.out.println("---------------------");
         md.display();
-        md.perfromQuack();
-        md.perfromSwim();
+        md.performQuack();
+        md.performSwim();
+        md.performFlight();
         System.out.println("---------------------");
 
         RubberDuck rd = new RubberDuck();
         System.out.println("---------------------");
         rd.display();
-        rd.perfromQuack();
-        rd.perfromSwim();
+        rd.performQuack();
+        rd.performSwim();
+        rd.performFlight();
         System.out.println("---------------------");
 
 
         RedHeadDuck rh = new RedHeadDuck();
         System.out.println("---------------------");
         rh.display();
-        rh.perfromQuack();
-        rh.perfromSwim();
+        rh.performQuack();
+        rh.performSwim();
+        rh.performFlight();
         System.out.println("---------------------");
 
 

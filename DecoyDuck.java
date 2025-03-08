@@ -1,7 +1,7 @@
-public class RubberDuck extends Duck {
+public class DecoyDuck extends Duck {
 
 
-    public RubberDuck() {
+    public DecoyDuck() {
         quackBehaviour = new Squeak();
         swimBehaviour = new Floating();
         flightBehaviour = new Fall();
@@ -10,6 +10,6 @@ public class RubberDuck extends Duck {
     }
     @Override
     public void display() {
-        System.out.println("I am Rubber Duck !!");
+        System.out.println("I am Decpy Duck !!");
     }
 }
